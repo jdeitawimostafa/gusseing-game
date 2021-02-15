@@ -1,0 +1,14 @@
+body {
+    width: auto;
+}
+
+.logo-style {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.heading-edit { 
+    text-align: center;
+}
+
