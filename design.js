@@ -1,11 +1,11 @@
 'use strict';
-
-alert('this is a yes or no questions , so you can answeer with yes or y , no or n');
 let userPoint = 0 ;
 let userName = prompt('what is your name ?');
 userName = userName.toLowerCase();
 //console.log('welcome' + userName);
 alert( 'welcome'+ userName);
+
+alert('this is a yes or no questions , so you can answeer with yes or y , no or n');
 
 
 let height = prompt('do you think i am short ?');
