@@ -4,7 +4,7 @@ body {
 }
 
 .logo-style {
-    width: 100px;
+    width: 200px;
     display: block;
     margin: auto;
 }
@@ -14,11 +14,10 @@ body {
 }
 
 .head2-edit {
-    text-align: center;
     color: darkblue;
 }
 
-head nav ol li {
+head nav ol {
     text-align: center;
     color: darkblue;
 }
