@@ -7,6 +7,7 @@ alert( 'welcome'+ userName);
 
 alert('this is a yes or no questions , so you can answeer with yes or y , no or n');
 
+consolle.log('Waleed editt this line');
 
 let height = prompt('do you think i am short ?');
 height = height.toLowerCase();
