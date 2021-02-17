@@ -78,7 +78,6 @@ else{
 }
 
 alert('welcome' + userName);
-alert(userPoint);
 //console.log('welcome' + userName);
 
 alert('its a guessing a number game right now');
@@ -103,7 +102,7 @@ alert('after this alert you will see the choices');
 alert(possible);
 console.log (possible);
 
-for(let j=1 ; j<6 ; j++ ){
+for(let j=1 ; j<7 ; j++ ){
   let guessing2 = prompt('quess what is my favorite food ?').toLowerCase();
   if(guessing2 === 'pizza' || guessing2 === 'fish'){
     alert('correct answer , it is delecious');
@@ -114,4 +113,3 @@ for(let j=1 ; j<6 ; j++ ){
 }
 alert('the corrects answers is : pizza or fish');
 alert(' your score is ' + userPoint +'out of 7');
-
