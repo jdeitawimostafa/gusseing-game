@@ -81,3 +81,37 @@ alert('welcome' + userName);
 alert(userPoint);
 //console.log('welcome' + userName);
 
+alert('its a guessing a number game right now');
+alert('hint : the number is too high');
+
+for(let i = 1 ; i <= 4 ; i++ ){
+  let guessing = prompt('guess a number from 1 to 100');
+
+  if(guessing === '90'){
+    alert('congratulation , your answer is correct');
+    userPoint = userPoint+1;
+    console.log(guessing);
+    break;
+  }
+}
+
+alert(' the correct answer is 90 ');
+
+alert('it is a new game , called a guessing food game right now');
+let possible = ['meet' , 'chicken' , 'fish' , 'rice with meet' , 'soap' , 'pizza' , 'mansaf' , 'grilled chicken'];
+alert('after this alert you will see the choices');
+alert(possible);
+console.log (possible);
+
+for(let j=1 ; j<6 ; j++ ){
+  let guessing2 = prompt('quess what is my favorite food ?').toLowerCase();
+  if(guessing2 === 'pizza' || guessing2 === 'fish'){
+    alert('correct answer , it is delecious');
+    userPoint = userPoint+1;
+    console.log(guessing2);
+    break;
+  }
+}
+alert('the corrects answers is : pizza or fish');
+alert(' your score is ' + userPoint +'out of 7');
+
