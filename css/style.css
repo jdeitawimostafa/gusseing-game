@@ -17,7 +17,11 @@ body {
     color: darkblue;
 }
 
-head nav ol {
-    text-align: center;
+.head3-edit {
     color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraph {
+    font-size: large;
 }
